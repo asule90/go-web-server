@@ -1,0 +1,7 @@
+package response
+
+type AnimalDto struct {
+	Name      string `json:"name"`
+	Color     string `json:"color"`
+	LegsCount int8   `json:"legs_count"`
+}
